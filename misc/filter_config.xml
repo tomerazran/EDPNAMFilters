@@ -1,0 +1,13 @@
+<filter>
+    <filter-name>EDPOAuthScopesFilter</filter-name>
+    <filter-class>il.co.edp.nam.filters.OAuthScopesFilter</filter-class>
+    <init-param>
+        <param-name>oauth.filter.config.path</param-name>
+        <param-value>/etc/edp/config/oauth_authorization_filter.xml</param-value>
+    </init-param>
+</filter>
+<filter-mapping>
+<filter-name>EDPOAuthScopesFilter</filter-name>
+<url-pattern>/oauth/nam/authz</url-pattern>
+<url-pattern>/oauth/nam/token</url-pattern>
+</filter-mapping>

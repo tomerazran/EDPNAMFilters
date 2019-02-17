@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edp:config xmlns:edp="http://edp.co.il/oauth_authorization_filter/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://edp.co.il/oauth_authorization_filter/ oauth_authorization_filter.xsd ">
+  <publicScopes>
+    <scope>address</scope>
+    <scope>profile</scope>
+  </publicScopes>
+  <clientSpecificScopes>
+    <clientScopes>
+      <clientID>428269de-79d7-42a3-905a-d08668538228</clientID>
+      <scopes>
+        <scope>email</scope>
+      </scopes>
+    </clientScopes>
+    <clientScopes>
+      <clientID>412349de-79d7-42a3-905a-d08668531118</clientID>
+      <scopes>
+        <scope>email</scope>
+        <scope>phone</scope>
+      </scopes>
+    </clientScopes>
+  </clientSpecificScopes>
+</edp:config>
